@@ -1,0 +1,51 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    max-width: 768px;
+}
+
+#board {
+    width: 100%;
+    width: 768px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    /* 
+    justify-content: flex-start;
+    
+    height: 768px;
+    border: 2px solid transparent;
+    border-radius: 8px; */
+}
+
+nav {
+    width: auto;
+}
+
+.field {
+    display: inline-block;
+    position: relative;
+    width: 19%;
+    height: 30px;
+    border: 2px solid grey;
+    margin: 1px 1px;
+    text-align: center;
+}
+
+.field h3 {
+    position: relative;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#luckyNumber {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.selected {
+    border: 2px solid #00ff84;
+    border-radius: 6px;
+    margin: 1px 1px;
+}
