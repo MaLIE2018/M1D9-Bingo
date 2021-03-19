@@ -1,0 +1,44 @@
+PseudoCode
+
+Create a button to randomize a number from 1 to 76. 
+The same number should be highlighted on the bingo board
+
+create random number
+
+change innertext of result to random number 
+
+var field selected
+
+if field selected
+	remove class from field
+	
+for in board children
+if random number = board children
+	add class selected to field
+	
+	
+Take ALWAYS a new number (eg. avoid randoming the number 10 3 times)
+
+
+array with numbers 1 to 76
+
+create a randomNumber
+
+
+stillAvailable = true
+do 
+	if check array includes randomNumber yes
+		array.splice(
+		stillAvailable false
+while(!stillAvailable)	
+return randomNumber
+
+for i in 0 to lastElement in uboard
+	if element.class = selected
+		count++
+	
+	if count === uboard.length
+		you win
+	else
+		try harder
+
